@@ -17,5 +17,6 @@ function validateForm() {
     alert('Email ou senha inválidos.');
   }
 }
+
 check();
 validateForm();
