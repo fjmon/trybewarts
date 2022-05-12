@@ -6,6 +6,7 @@ function check() {
     document.getElementById('submit-btn').disabled = true;
   }
 }
+check();
 
 function validateForm() {
   const password = document.forms('myForm')('password').value;
@@ -17,5 +18,5 @@ function validateForm() {
     alert('Email ou senha inválidos.');
   }
 }
-check();
+
 validateForm();
