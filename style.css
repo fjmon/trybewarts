@@ -27,7 +27,7 @@ main {
 
 #label-family {
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
 }
 
 .inline {
