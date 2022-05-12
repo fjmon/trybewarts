@@ -12,14 +12,14 @@
 
 <body>
   <header class='header'>
-    <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="logotipo da Trybewarts">
+    <div>
+      <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="logotipo da Trybewarts">
+    </div>
     <h1 id="trybewarts-header-title">Trybewarts</h1>
-    <div></div>
     <form class="trybewarts-login" name="myForm" onsubmit="validateForm()">
       <input type="email" name=email placeholder="Email">
       <input type="password" name=password placeholder="Senha">
       <button type="submit">Entrar</button>
-    </form>
     </form>
   </header>
   <main>
@@ -29,6 +29,7 @@
         <input type="text" id="input-lastname" placeholder="Sobrenome">
         <br>
       </label>
+      <div class="inline">
       <label for="">
         <input type="email" id="input-email" placeholder="Email">
       </label>
@@ -38,17 +39,17 @@
         <option value="Corvinode" id="corvinode-house">Corvinode</option>
         <option value="Pytherina" id="pytherina-house">Pytherina</option>
       </select>
+      </div>
       <br>
-      <label id="label-family" for="">Qual sua família?
-        <br>
+      <label id="label-family" for="">Qual sua família?</label>
         <input type="radio" name="family" value="Frontend">Frontend
-        <br>
+
         <input type="radio" name="family" value="Backend">Backend
-        <br>
+
         <input type="radio" name="family" value="FullStack">FullStack
-      </label>
+      
       <br>
-      <label id="label-content" for="">Qual conteúdo você está com mais vontade de aprender?
+      <label id="label-content" for="">Qual conteúdo você está com mais vontade de aprender?</label>
         <br>
         <input type="checkbox" value="HoFs">HoFs
         <br>
@@ -61,7 +62,6 @@
         <input type="checkbox" value="SQL">SQL
         <br>
         <input type="checkbox" value="Python">Python
-      </label>
       <br>
       <label id="label-rate" for="">Como você avalia a Trybewarts?
         <br>
@@ -78,9 +78,13 @@
           <input type="radio" name="rate" value="10">10
         </radio-buttons>
       </label>
-    </form>
+        <label for="" class="textarea" >Deixe seu comentário:</label>
+          <textarea name="" id="text-area" cols="30" rows="6" maxlength="500"></textarea>
+        </label>
+      </form>
     <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
   </main>
   <footer>Direitos reservados à Trybewarts©</footer>
 </body>
+
 </html>

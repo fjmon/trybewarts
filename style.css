@@ -6,6 +6,7 @@
 
 
 #evaluation-form {
+    display: flex;
     flex-direction: column
         
 }
@@ -32,6 +33,12 @@ main {
     justify-content: right;
 }
 
-#house {
-    margin-right: 73.3%;
+#label-family {
+    display: flex;
+    align-items: flex-end;
+}
+
+.inline {
+    display: flex;
+    flex-direction: row;
 }
