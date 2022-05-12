@@ -30,38 +30,38 @@
         <br>
       </label>
       <div class="inline">
-      <label for="">
-        <input type="email" id="input-email" placeholder="Email">
-      </label>
-      <select name="Casa" id="house">
-        <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-        <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-        <option value="Corvinode" id="corvinode-house">Corvinode</option>
-        <option value="Pytherina" id="pytherina-house">Pytherina</option>
-      </select>
+        <label for="">
+          <input type="email" id="input-email" placeholder="Email">
+        </label>
+        <select name="Casa" id="house">
+          <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+          <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+          <option value="Corvinode" id="corvinode-house">Corvinode</option>
+          <option value="Pytherina" id="pytherina-house">Pytherina</option>
+        </select>
       </div>
       <br>
       <label id="label-family" for="">Qual sua família?</label>
-        <input type="radio" name="family" value="Frontend">Frontend
+      <input type="radio" name="family" value="Frontend">Frontend
 
-        <input type="radio" name="family" value="Backend">Backend
+      <input type="radio" name="family" value="Backend">Backend
 
-        <input type="radio" name="family" value="FullStack">FullStack
-      
-      <br>
+      <input type="radio" name="family" value="FullStack">FullStack
+
+
       <label id="label-content" for="">Qual conteúdo você está com mais vontade de aprender?</label>
-        <br>
-        <input type="checkbox" value="HoFs">HoFs
-        <br>
-        <input type="checkbox" value="Jest">Jest
-        <br>
-        <input type="checkbox" value="Promises">Promises
-        <br>
-        <input type="checkbox" value="React">React
-        <br>
-        <input type="checkbox" value="SQL">SQL
-        <br>
-        <input type="checkbox" value="Python">Python
+      <br>
+      <input type="checkbox" value="HoFs">HoFs
+      <br>
+      <input type="checkbox" value="Jest">Jest
+      <br>
+      <input type="checkbox" value="Promises">Promises
+      <br>
+      <input type="checkbox" value="React">React
+      <br>
+      <input type="checkbox" value="SQL">SQL
+      <br>
+      <input type="checkbox" value="Python">Python
       <br>
       <label id="label-rate" for="">Como você avalia a Trybewarts?
         <br>
@@ -78,13 +78,18 @@
           <input type="radio" name="rate" value="10">10
         </radio-buttons>
       </label>
-        <label for="" class="textarea" >Deixe seu comentário:</label>
-          <textarea name="" id="text-area" cols="30" rows="6" maxlength="500"></textarea>
-        </label>
+      <label for="" class="textarea">Deixe seu comentário:</label>
+      <textarea name="" id="text-area" cols="30" rows="6" maxlength="500"></textarea>
+      </label>
       </form>
     <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
   </main>
-  <footer>Direitos reservados à Trybewarts©</footer>
+  <div>
+    <label id="label-infos">Você concorda com o uso das informações acima?</label>
+    <input type="checkbox" id="agreement" onclick="check()">
+    <button type="submit" disabled id="submit-btn">Enviar</button>
+</div>
+  <footer class="final">Direitos reservados à Trybewarts©</footer>
 </body>
 
 </html>
