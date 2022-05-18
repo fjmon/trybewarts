@@ -7,15 +7,15 @@ function check() {
   }
 }
 
-function validateForm() {
-  const password = document.forms('myForm')('password').value;
-  const email = document.forms('myForm')('email').value;
+// function validateForm() {
+//   const password = document.forms('myForm')('password').value;
+//   const email = document.forms('myForm')('email').value;
 
-  if (password === '123456' && email === 'tryber@teste.com') {
-    alert('Olá, Tryber!');
-  } else {
-    alert('Email ou senha inválidos.');
-  }
-}
+//   if (password === '123456' && email === 'tryber@teste.com') {
+//     alert('Olá, Tryber!');
+//   } else {
+//     alert('Email ou senha inválidos.');
+//   }
+// }
 check();
-validateForm();
+// validateForm();
